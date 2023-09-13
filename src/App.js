@@ -1,4 +1,3 @@
-import './App.css';
 import CalculatorElement from './components/calculator';
 
 const App = () => (
