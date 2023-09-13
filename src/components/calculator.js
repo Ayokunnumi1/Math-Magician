@@ -1,27 +1,25 @@
 const CalculatorElement = () => (
   <div className="grid-container">
-    <div className="input-number-container">
-      <input className="input-number" />
-    </div>
-    <div>AC</div>
-    <div>+/-</div>
-    <div>%</div>
-    <div>/</div>
-    <div>7</div>
-    <div>8</div>
-    <div>9</div>
-    <div>X</div>
-    <div>4</div>
-    <div>5</div>
-    <div>6</div>
-    <div>-</div>
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>+</div>
-    <div className="item-seventeen">0</div>
-    <div className="item-eighteen">.</div>
-    <div>=</div>
+    <input className="input-number" value={0} />
+    <button type="button">AC</button>
+    <button type="button">+/-</button>
+    <button type="button">%</button>
+    <button type="button">/</button>
+    <button type="button">7</button>
+    <button type="button">8</button>
+    <button type="button">9</button>
+    <button type="button">X</button>
+    <button type="button">4</button>
+    <button type="button">5</button>
+    <button type="button">6</button>
+    <button type="button">-</button>
+    <button type="button">1</button>
+    <button type="button">2</button>
+    <button type="button">3</button>
+    <button type="button">+</button>
+    <button type="button" className="item-seventeen">0</button>
+    <button type="button" className="item-eighteen">.</button>
+    <button type="button">=</button>
   </div>
 );
 

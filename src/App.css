@@ -8,20 +8,14 @@ body {
 
 .grid-container {
   display: grid;
-  background-color: #2196f3;
+  grid-template-columns: auto auto auto auto;
   width: 300px;
 }
 
 .grid-container > div {
-  background-color: rgba(205, 209, 228);
   border: 1px solid black;
   text-align: center;
   font-size: 30px;
-  cursor: default;
-}
-
-.grid-container > div:nth-child(4n + 5) {
-  background-color: orange;
 }
 
 .item-seventeen {
@@ -34,13 +28,22 @@ body {
   grid-column-end: 4;
 }
 
-.input-number-container {
+.input-number {
   grid-column-start: 1;
   grid-column-end: 5;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: darkgray;
+  text-align: right;
 }
 
-.input-number {
-  width: 90%;
-  padding: 10px;
-  border-radius: 5px;
+button {
+  padding: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: 700;
+}
+
+button:nth-child(4n + 5) {
+  background-color: orange;
 }
