@@ -13,7 +13,6 @@ const CalculatorElement = () => {
   const handleButtonClicks = (buttonValue) => {
     const outPut = calculate(state, buttonValue);
     setState(outPut);
-    // console.log(outPut);
   };
 
   return (
@@ -30,7 +29,7 @@ const CalculatorElement = () => {
         <button type="button" value="AC" onClick={(e) => handleButtonClicks(e.target.value)}>AC</button>
         <button type="button" value="+/-" onClick={(e) => handleButtonClicks(e.target.value)}>+/-</button>
         <button type="button" value="%" onClick={(e) => handleButtonClicks(e.target.value)}>%</button>
-        <button type="button" value="/" onClick={(e) => handleButtonClicks(e.target.value)}>/</button>
+        <button type="button" value="&#247;" onClick={(e) => handleButtonClicks(e.target.value)}>&#247;</button>
         <button type="button" value="7" onClick={(e) => handleButtonClicks(e.target.value)}>7</button>
         <button type="button" value="8" onClick={(e) => handleButtonClicks(e.target.value)}>8</button>
         <button type="button" value="9" onClick={(e) => handleButtonClicks(e.target.value)}>9</button>
