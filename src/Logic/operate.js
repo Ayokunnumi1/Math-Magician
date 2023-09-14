@@ -1,4 +1,4 @@
-import Big from 'big.mjs';
+import Big from 'big.js';
 
 export default function operate(numberOne, numberTwo, operation) {
   const one = Big(numberOne);
