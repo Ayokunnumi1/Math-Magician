@@ -1,1 +1,11 @@
-/* stylelint-disable-next-line no-empty-source */
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  /* flex-wrap: wrap; */
+  height: 100vh;
+  background-color: rgba(36, 37, 42);
+}
