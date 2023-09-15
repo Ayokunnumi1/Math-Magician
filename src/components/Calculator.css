@@ -32,9 +32,10 @@ body {
   grid-column-start: 1;
   grid-column-end: 5;
   border-radius: 5px;
-  padding: 20px;
+  padding: 10px;
   background-color: darkgray;
-  text-align: right;
+  text-align-last: right;
+  height: 30px;
 }
 
 button {
