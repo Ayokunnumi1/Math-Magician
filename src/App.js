@@ -1,3 +1,5 @@
+/* eslint-disable import/no-extraneous-dependencies */
+import { Route, Routes } from 'react-router-dom';
 import CalculatorElement from './components/calculator';
 import Quote from './components/quote';
 import './App.css';
@@ -5,8 +7,10 @@ import './App.css';
 const App = () => (
   <div className="App">
     <div className="main-container">
-      <Quote />
-      <CalculatorElement />
+      <Routes>
+        <Route path="/" element={<Quote />} />
+        <Route path="/Calculator" element={<CalculatorElement />} />
+      </Routes>
     </div>
   </div>
 );
