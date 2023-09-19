@@ -5,7 +5,66 @@
   align-items: center;
   gap: 20px;
   height: 100vh;
+  overflow: hidden;
   /* background-color: rgba(22, 160, 133); */
   /* background-color: rgba(22, 160, 133); */
   background-image: url(assets/Maths.jpeg);
+  background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* filter: blur(0.5px); */
+    z-index: -1000;
+    /* position: fixed; */
+}
+
+.navbar {
+  background-color: #fff;
+  height: 50px;
+  border: 3px solid rgba(241, 90, 34);
+  display: flex;
+  /* gap: 3px; */
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-link-container {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+
+.navbar-links {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: medium;
+}
+
+@media screen and (min-width: 600px) {
+  .navbar {
+    justify-content: space-between;
+
+  }
+  .navbar-link-container {
+    justify-content: center;
+     align-items: center; 
+      margin-right: 70px;
+      gap: 20px;
+  }
+
+    .navbar-links {
+      font-size: 25px;
+    }
+
+  h1 {
+    margin-left: 70px;
+    font-size: 30px;
+  }
 }

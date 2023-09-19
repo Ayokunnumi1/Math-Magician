@@ -1,9 +1,12 @@
-const Text = () => (
-  <>
-    <div>
-      <h1>Mathematics Genius</h1>
-    </div>
-  </>
-);
+// eslint-disable-next-line arrow-body-style
+const Text = () => {
+  return (
+    <>
+      <div>
+        <h2>Mathematics Genius</h2>
+      </div>
+    </>
+  );
+};
 
 export default Text;
