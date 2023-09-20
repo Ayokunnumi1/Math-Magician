@@ -1,5 +1,5 @@
 .quote-container {
-  border: 3px solid #ffff;
+  border-radius: 10px;
   height: 200px;
   width: 300px;
   background-color: #fff;
@@ -8,4 +8,20 @@
 
 .quote-author {
   font-weight: bolder;
+}
+
+.message {
+  background-color: #fff;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: black;
 }
