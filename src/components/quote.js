@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './quote.css';
+import '../modules/quote.css';
 
 const Quote = () => {
   const [data, setData] = useState([]);
@@ -35,6 +35,7 @@ const Quote = () => {
   return (
     <div className="quote-container">
       <blockquote className="quote">
+        <h2>Quote of the day!</h2>
         <span className="quote-text">{data.quote}</span>
         <cite className="quote-author">
           {data.author}
