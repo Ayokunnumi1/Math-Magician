@@ -3,6 +3,8 @@
   background-color: #fff;
   padding: 10px;
   font-size: 30px;
+  overflow: scroll;
+  height: 100vh;
 }
 
 .quote-author {
@@ -24,4 +26,10 @@
 
 h2 {
   color: black;
+}
+
+@media screen and (min-width: 600px) {
+  .quote-container {
+    overflow: hidden;
+  }
 }
