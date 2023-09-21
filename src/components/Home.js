@@ -5,16 +5,16 @@ const Home = () => {
   return (
     <section className="home-section">
       <h3>Welcome to our page!</h3>
-      <p>
+      <p className="home-text">
         Math Magicians is an app developed by Ayokunnumi Omololu,
         a Full Stack Software Development student at Microverse.
         Microverse is an online school that uses peer-programming and project building to teach.
       </p>
-      <p>
+      <p className="home-text">
         Maths Magicians is a Calculator app that performs arithmetic calculations.
         The page has been divided into three sections: Home, Calculator, and Quote
       </p>
-      <p>
+      <p className="home-text">
         The Home section displays basic information about
         the author as well as what the app does.
         The Calculator section displays the calculator

@@ -4,7 +4,7 @@ const Text = () => {
   return (
     <>
       <div>
-        <h2 className="text-h2">Calculator</h2>
+        <h2 className="text-h2">Let&apos;s do some Maths!</h2>
       </div>
     </>
   );
