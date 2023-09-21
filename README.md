@@ -120,7 +120,7 @@ npm run test
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()https://ayo-on-code-calculator-s4tm.onrender.com
+- [Live Demo Link](https://ayo-on-code-calculator-s4tm.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
