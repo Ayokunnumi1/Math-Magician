@@ -2,7 +2,9 @@
   background-color: #fff;
   color: black;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 15px;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 h3 {
@@ -18,5 +20,10 @@ h3 {
 @media screen and (min-width: 600px) {
   .home-text {
     font-size: 25px;
+  }
+
+  .home-section {
+    overflow: hidden;
+    height: 100%;
   }
 }

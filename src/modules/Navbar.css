@@ -15,14 +15,13 @@
   align-items: center;
   gap: 3px;
   border-radius: 10px;
-  background-color: #fff;
 }
 
 .navbar-links {
-  color: black;
   font-weight: 500;
   font-size: 20px;
   display: flex;
+  color: #fff;
 }
 
 .navbar-links::after {
@@ -47,14 +46,17 @@ h1 {
     align-items: center;
     margin-right: 70px;
     gap: 20px;
+    background-color: #fff;
   }
 
   .navbar-links {
     font-size: 25px;
+    color: black;
   }
 
   h1 {
     margin-left: 70px;
     font-size: 35px;
   }
+
 }
